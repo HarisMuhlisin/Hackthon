@@ -15,16 +15,16 @@ The prediction of GR logs from seismic data presents significant value in explor
    - GR logs are preprocessed and aligned with the corresponding seismic traces.
 
 2. **Machine Learning Models:**
-   - **K-Nearest Neighbors (KNN):** A non-parametric algorithm used to predict GR values by identifying the nearest neighbors in seismic attribute space.
-   - **Random Forest:** An ensemble method that combines multiple decision trees to make robust predictions of GR logs based on seismic attributes.
-   - **Convolutional Neural Network (CNN):** A deep learning model designed to analyze seismic amplitude data in grid format, capturing spatial patterns to accurately forecast GR logs.
+   - **Random Forest Regressor:** A robust ensemble learning algorithm that combines multiple decision trees to improve predictive accuracy of GR logs.
+   - **ExtraTree Regressor:** An extension of the decision tree model that uses randomized decisions at each node, enhancing model diversity and reducing overfitting.
+   - **Hybrid CNN + LSTM:** A deep learning approach where CNN extracts spatial features from seismic amplitude data, and LSTM layers capture temporal dependencies to predict GR logs with higher accuracy.
 
 3. **Model Evaluation:**
-   - Each model's performance is evaluated using metrics Mean Squared Error (MSE), R2, MAE, RMSLE, and MAPE to compare their accuracy in predicting GR logs.
+   - The performance of each model is evaluated using metrics such as Mean Squared Error (MSE) to determine the most accurate method for predicting GR logs.
 
 ## Results
 
-Among the three machine learning methods, the CNN model demonstrated superior performance, achieving the lowest error rate according to evaluation metrics. This highlights the CNN's effectiveness in capturing the complex, spatial relationships within seismic data.
+The hybrid CNN + LSTM model demonstrated superior performance, achieving the lowest error rate according to evaluation metrics. This suggests that the combination of spatial feature extraction and temporal dependency modeling provides the best accuracy in predicting GR logs from seismic data.
 
 ## Conclusion
 
