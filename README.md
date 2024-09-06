@@ -34,7 +34,8 @@ The findings of this research suggest that ML techniques, particularly CNN, can 
 **Requirements:**
    - Python 3.10
    - Libraries:
-    `Scikit-learn
+ ```
+     Scikit-learn
      TensorFlow
      NumPy
      Pandas
@@ -43,5 +44,6 @@ The findings of this research suggest that ML techniques, particularly CNN, can 
      Seaborn
      Segyio
      Tensorflow
-     Scipy` 
+     Scipy
+```
 
