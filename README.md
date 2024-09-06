@@ -1,10 +1,10 @@
 # Deep learning approaches for seismic gamma ray prediction: insights from seismic attributes case study F3 Netherland
-
+**Our Contributor Nungga Saputra, Arifina Resyuanti, and Haris Muhlisin**
 ## Overview
 
 This project leverages machine learning techniques to forecast gamma-ray (GR) logs from seismic data, particularly in areas with limited well data. The study utilizes three machine learning models—Convolutional Neural Network (CNN), Random Forest, and K-Nearest Neighbors (KNN)—to identify complex patterns in seismic data and to analyze the intricate correlations between seismic parameters and GR logs.
 
-## Motivation
+## Objective
 
 The prediction of GR logs from seismic data presents significant value in exploration and development, especially in domains lacking comprehensive well log data. However, the limited resolution of seismic data often poses challenges when trying to establish connections with GR log data in thin or complex layers. This project aims to overcome these limitations by applying machine learning (ML) methods to capture the intricate relationships between seismic attributes and GR records.
 
